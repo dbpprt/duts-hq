@@ -14,6 +14,44 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
 
 ## Samples
 
+<table>
+  <tr>
+    <td align="center">Image</td>
+    <td align="center">Mask</td>
+    <td align="center">HQ Mask</td>
+   </tr>
+  <tr>
+    <td> <img src="samples/ILSVRC2012_test_00004908.png"  alt="1"></td>
+    <td> <img src="samples/masks/ILSVRC2012_test_00004908.png"  alt="1"></td>
+    <td> <img src="samples/hq-masks/ILSVRC2012_test_00004908.png"  alt="1"></td>
+   </tr>
+  <tr>
+    <td> <img src="samples/ILSVRC2013_test_00008420.png"  alt="1"></td>
+    <td> <img src="samples/masks/ILSVRC2013_test_00008420.png"  alt="1"></td>
+    <td> <img src="samples/hq-masks/ILSVRC2013_test_00008420.png"  alt="1"></td>
+   </tr>
+</table>
+
+```
+The refined masks aren't always perfect, but they are pretty good. Still the original upscaled masks are included in the dataset.
+```
+
+### Original images
+<table>
+  <tr>
+    <td align="center">Image</td>
+    <td align="center">Mask</td>
+   </tr>
+  <tr>
+    <td> <img src="samples/orig/ILSVRC2012_test_00004908.jpg"  alt="1"></td>
+    <td><img src="samples/orig/ILSVRC2012_test_00004908.png" alt="2"></td>
+   </tr>
+   <tr>
+    <td> <img src="samples/orig/ILSVRC2013_test_00008420.jpg"  alt="1"></td>
+    <td><img src="samples/orig/ILSVRC2013_test_00008420.png" alt="2"></td>
+   </tr>
+</table>
+
 ## Download links
 - TBD
 
