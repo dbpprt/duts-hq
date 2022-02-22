@@ -7,7 +7,7 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
 ---
 
 ## Features
-- All images are upscaled by 4x using ```003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth``` pretrained model
+- All images are upscaled by 4x using SwinIR and the ```003_realSR_BSRGAN_DFOWMFC_s64w8_SwinIR-L_x4_GAN.pth``` pretrained model
 - The images are square padded to 1600x1600 with black borders and all masks upscaled using bicubic interpolation
 - The masks are refined using [CascadePSP](https://github.com/hkchengrex/CascadePSP)
 - This dataset **only** includes the DUTS train set and not the validation set
