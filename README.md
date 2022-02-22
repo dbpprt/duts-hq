@@ -32,6 +32,16 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
     <td> <img src="samples/masks/ILSVRC2013_test_00008420.png"  alt="1"></td>
     <td> <img src="samples/hq-masks/ILSVRC2013_test_00008420.png"  alt="1"></td>
    </tr>
+   <tr>
+    <td> <img src="samples/n03188531_21621.png"  alt="1"></td>
+    <td> <img src="samples/masks/n03188531_21621.png"  alt="1"></td>
+    <td> <img src="samples/hq-masks/n03188531_21621.png"  alt="1"></td>
+   </tr>
+   <tr>
+    <td> <img src="samples/n04371430_146.png"  alt="1"></td>
+    <td> <img src="samples/masks/n04371430_146.png"  alt="1"></td>
+    <td> <img src="samples/hq-masks/n04371430_146.png"  alt="1"></td>
+   </tr>
 </table>
 
 #### Note
@@ -50,6 +60,14 @@ The refined masks aren't always perfect, but they are pretty good. Still the ori
    <tr>
     <td> <img src="samples/orig/ILSVRC2013_test_00008420.jpg"  alt="1"></td>
     <td><img src="samples/orig/ILSVRC2013_test_00008420.png" alt="2"></td>
+   </tr>
+   <tr>
+    <td> <img src="samples/orig/n03188531_21621.jpg"  alt="1"></td>
+    <td><img src="samples/orig/n03188531_21621.png" alt="2"></td>
+   </tr>
+   <tr>
+    <td> <img src="samples/orig/n04371430_146.jpg"  alt="1"></td>
+    <td><img src="samples/orig/n04371430_146.png" alt="2"></td>
    </tr>
 </table>
 
