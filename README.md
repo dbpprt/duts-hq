@@ -13,6 +13,7 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
 - This dataset **only** includes the DUTS train set and not the validation set
 - The dataset contains the upscaled masks in the ```masks``` subdirectory and the processed masks in the ```hq-masks``` subdirectory
 - All images are stored as PNG, 3 channel for the images and 1 channel for the masks
+- All original filenames are retained
 
 ## Samples
 
@@ -87,10 +88,10 @@ The refined masks aren't always perfect, but they are pretty good. There are a c
 
 ```bibtex
 @inproceedings{liang2021swinir,
-    title={SwinIR: Image Restoration Using Swin Transformer},
-    author={Liang, Jingyun and Cao, Jiezhang and Sun, Guolei and Zhang, Kai and Van Gool, Luc and Timofte, Radu},
-    booktitle={IEEE International Conference on Computer Vision Workshops},
-    year={2021}
+  title={SwinIR: Image Restoration Using Swin Transformer},
+  author={Liang, Jingyun and Cao, Jiezhang and Sun, Guolei and Zhang, Kai and Van Gool, Luc and Timofte, Radu},
+  booktitle={IEEE International Conference on Computer Vision Workshops},
+  year={2021}
 }
 ```
 
