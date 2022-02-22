@@ -11,6 +11,8 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
 - The images are square padded to 1600x1600 with black borders and all masks upscaled using bicubic interpolation
 - The masks are refined using [CascadePSP](https://github.com/hkchengrex/CascadePSP)
 - This dataset **only** includes the DUTS train set and not the validation set
+- The dataset contains the upscaled masks in the ```masks``` subdirectory and the processed masks in the ```hq-masks``` subdirectory
+- All images are stored as PNG, 3 channel for the images and 1 channel for the masks
 
 ## Samples
 
@@ -32,9 +34,8 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
    </tr>
 </table>
 
-```
+#### Note
 The refined masks aren't always perfect, but they are pretty good. Still the original upscaled masks are included in the dataset.
-```
 
 ### Original images
 <table>
