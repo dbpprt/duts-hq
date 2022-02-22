@@ -44,9 +44,6 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
    </tr>
 </table>
 
-#### Note
-The refined masks aren't always perfect, but they are pretty good. Still the original upscaled masks are included in the dataset.
-
 ### Original images
 <table>
   <tr>
@@ -73,6 +70,9 @@ The refined masks aren't always perfect, but they are pretty good. Still the ori
 
 ## Download links
 - TBD
+
+## Warning
+The refined masks aren't always perfect, but they are pretty good. There are a couple of quite noisy samples in the dataset, hence I included the original upscaled and padded masks in the dataset.
 
 ## Citation
 ```bibtex
