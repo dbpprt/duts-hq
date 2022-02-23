@@ -70,7 +70,7 @@ HQ version of the [DUTS](http://saliencydetection.net/duts/) dataset for salienc
 </table>
 
 ## Download links
-- TBD
+- [OneDrive](https://1drv.ms/u/s!Am46hiIqzupmhr0ZZPDo4cTUZcLGMg?e=v9pXxV)
 
 ## Warning
 The refined masks aren't always perfect, but they are pretty good. There are a couple of quite noisy samples in the dataset, hence I included the original upscaled and padded masks in the dataset.
